@@ -183,6 +183,7 @@ img{
   background-color: #fff;
   color: #050505;
   border-radius: 5px;
+  border: 1px solid transparent;
 }
 
 
