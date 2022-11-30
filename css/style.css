@@ -44,7 +44,7 @@ body{
 }
 
 .main{
-  flex-grow: 1;
+  flex-grow: 2;
 }
 
 .container{
@@ -191,7 +191,7 @@ img{
 
 .about-event{
   padding-top: 112px;
-  margin-bottom: 50px;
+  margin-bottom: 115px;
 }
 
 .about-container{
@@ -240,5 +240,24 @@ img{
 .about-card .about-card-img-slot{
   display: flex;
   justify-content: space-between;
+}
+
+
+/* FOOTER */
+
+.footer-container{
+  height: 100px;
+}
+
+.footer-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+}
+
+.footer-text:first-child{
+  margin-right: 55px;
 }
 
