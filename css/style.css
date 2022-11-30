@@ -38,7 +38,7 @@ body{
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  letter-spacing: 0.1em;
+  letter-spacing: 2px;
   color: #fff;
 }
 
@@ -52,3 +52,60 @@ body{
   margin: 0 auto;
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+ul,ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button, a{
+  cursor: pointer;
+}
+
+img{
+  display: flex;
+}
+
+
+
+
+/* HEADER */
+
+.header{
+  width: 100%;
+  position: fixed;
+  top: 57px;
+  background-color: transparent;
+  /* background-color: black; */
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.site-nav-bar{
+  width: 100%;
+  max-width: 405px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.site-nav-link{
+  text-transform: uppercase;
+}
