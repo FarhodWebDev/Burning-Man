@@ -136,7 +136,7 @@ img{
 /* HERO */
 
 .hero{
-  height: 900px;
+  height: 100vh;
   background-image: url(../pictures/header-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
