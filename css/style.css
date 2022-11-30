@@ -34,7 +34,7 @@ body{
   display: flex;
   flex-direction: column;
 
-  font-family: 'Anton';
+  font-family: 'Anton', monospace;
   font-weight: 200;
   font-size: 14px;
   line-height: 21px;
@@ -184,3 +184,60 @@ img{
   color: #050505;
   border-radius: 5px;
 }
+
+
+/* ABOUT */
+
+.about-event{
+  padding-top: 112px;
+  margin-bottom: 50px;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #000;
+  gap: 58px;
+}
+
+.about-title{
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.about-cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-card{
+  width: 570px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-card .about-card-title{
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.about-card .about-card-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.about-card .about-card-img-slot{
+  display: flex;
+  justify-content: space-between;
+}
+
