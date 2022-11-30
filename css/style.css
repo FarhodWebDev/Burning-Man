@@ -114,8 +114,25 @@ img{
 
 .site-nav-link{
   text-transform: uppercase;
+  transition: all 0.3s ease-out;
 }
 
+.site-nav-link:hover{
+  color: rgba(0, 98, 255, 0.65);
+}
+
+.site-nav-link::after , .number::after{
+  content: '';
+  display: block;
+  width: 0%;
+  height: 1px;
+  background-color: rgb(0, 98, 255);
+  transition: all 0.3s ease-out;
+  margin: 0 auto;
+}
+.site-nav-link:hover::after, .number:hover::after{
+  width: 100%;
+}
 /* HERO */
 
 .hero{
@@ -159,4 +176,11 @@ img{
   line-height: 26px;
   letter-spacing: 10%;
   text-transform: uppercase;
+  transition: all 0.4s ease-out;
+}
+
+.hero-btn:hover{
+  background-color: #fff;
+  color: #050505;
+  border-radius: 5px;
 }
