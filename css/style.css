@@ -112,12 +112,12 @@ img{
   gap: 40px;
 }
 
-.site-nav-link{
+.site-nav-link, .number{
   text-transform: uppercase;
   transition: all 0.3s ease-out;
 }
 
-.site-nav-link:hover{
+.site-nav-link:hover, .number:hover{
   color: rgba(0, 98, 255, 0.65);
 }
 
