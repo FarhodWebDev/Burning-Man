@@ -3,10 +3,10 @@
 @font-face {
   font-family: 'Anton';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   src: local(''),
-       url('../fonts/Anton-Regular.woff') format('woff'),
-       url('../fonts/Anton-Regular.woff2') format('woff2'); 
+       url('../fonts/anton-v23-latin-regular.woff') format('woff'),
+       url('../fonts/anton-v23-latin-regular.woff2') format('woff2'); 
 }
 
 /* Open Sans */
@@ -15,8 +15,8 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('../fonts/OpenSans-Regular.woff') format('woff'),
-       url('../fonts/OpenSans-Regular.woff2') format('woff2'); 
+       url('../fonts/open-sans-v34-latin-regular.woff') format('woff'),
+       url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'); 
 }
 
 *{
@@ -35,10 +35,11 @@ body{
   flex-direction: column;
 
   font-family: 'Anton';
-  font-weight: 400;
+  font-weight: 200;
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 2px;
+  text-transform: uppercase;
   color: #fff;
 }
 
@@ -48,8 +49,13 @@ body{
 
 .container{
   width: 100%;
+  height: 100%;
   max-width: 1170px;
   margin: 0 auto;
+}
+
+section{
+  width: 100%;
 }
 
 a{
@@ -107,5 +113,50 @@ img{
 }
 
 .site-nav-link{
+  text-transform: uppercase;
+}
+
+/* HERO */
+
+.hero{
+  height: 900px;
+  background-image: url(../pictures/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero-info{
+  height: 300px;
+}
+
+.hero-title{
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 10%;
+}
+
+.hero-title-site-name{
+  font-size: 100px;
+  line-height: 150.5px;
+}
+
+.hero-btn{
+  width: 238px;
+  height: 57px;
+  padding: 18px 23px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 10%;
   text-transform: uppercase;
 }
